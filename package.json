@@ -1,6 +1,6 @@
 {
   "name": "generator-hemera-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Service generator for hemera framework",
   "homepage": "https://github.com/hemerajs/hemera",
   "author": {

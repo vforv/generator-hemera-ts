@@ -133,13 +133,7 @@ module.exports = class extends Generator {
       this.destinationPath(`${servicePrefix}-${serviceName}/src/model/${serviceName}.model.ts`),
       pro
     );
-
-    // if (this.props.crud) {
-
-    // } else {
-
-    // }
-
+    
     this.fs.move(
       this.destinationPath('service/**'),
       this.destinationPath(`${servicePrefix}-${serviceName}`)
