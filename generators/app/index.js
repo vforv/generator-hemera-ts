@@ -36,11 +36,6 @@ module.exports = class extends Generator {
         default: 'Vladimir Djukic'
       },
       {
-        type: 'confirm',
-        name: 'crud',
-        message: 'Is this CRUD service?'
-      },
-      {
         type: 'input',
         name: 'coverage',
         message: 'Enter how much (%) should be minimum for this service? (Put number from 1-100)',
@@ -139,11 +134,11 @@ module.exports = class extends Generator {
       pro
     );
 
-    if (this.props.crud) {
+    // if (this.props.crud) {
 
-    } else {
+    // } else {
 
-    }
+    // }
 
     this.fs.move(
       this.destinationPath('service/**'),
